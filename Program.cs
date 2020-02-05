@@ -6,9 +6,20 @@ namespace LiftoffLiveCoding
     {
         static void Main(string[] arg)
         {
-            double answer_one = Calculate_candy(.1, 0);
-            double answer_two = Calculate_candy(.25, -.05);
-            double answer_three = Calculate_candy(-.25, .2);
+            double clear = .1;
+            double cloudy = 0;
+            double raining = -.25;
+            double fullmoon = .25;
+            double forties = -.05;
+            double fifties = 0;
+            double sixties = .05;
+            double seventies = .2;
+
+
+            
+            double answer_one = Calculate_candy(clear, fifties);
+            double answer_two = Calculate_candy(fullmoon, forties);
+            double answer_three = Calculate_candy(raining, seventies);
 
             Console.WriteLine(answer_one);
             Console.WriteLine(answer_two);
